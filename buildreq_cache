@@ -1,0 +1,6 @@
+1.003002
+perl(Import::Into)
+perl(Module::Runtime)
+perl(Test::Fatal)
+perl(Try::Tiny)
+perl(strictures)
