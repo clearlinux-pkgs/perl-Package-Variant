@@ -4,10 +4,10 @@
 #
 Name     : perl-Package-Variant
 Version  : 1.003002
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
-Summary  : 'Parameterizable packages'
+Summary  : Parameterizable packages
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -27,6 +27,7 @@ Creation of anonymous variants:
 Summary: dev components for the perl-Package-Variant package.
 Group: Development
 Provides: perl-Package-Variant-devel = %{version}-%{release}
+Requires: perl-Package-Variant = %{version}-%{release}
 
 %description dev
 dev components for the perl-Package-Variant package.
