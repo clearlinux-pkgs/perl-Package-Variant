@@ -4,7 +4,7 @@
 #
 Name     : perl-Package-Variant
 Version  : 1.003002
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Summary  : 'Parameterizable packages'
@@ -88,4 +88,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Package/Variant.pm
+/usr/lib/perl5/*
