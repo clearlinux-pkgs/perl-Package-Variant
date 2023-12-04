@@ -5,7 +5,7 @@
 #
 Name     : perl-Package-Variant
 Version  : 1.003002
-Release  : 19
+Release  : 20
 URL      : https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Summary  : 'Parameterizable packages'
